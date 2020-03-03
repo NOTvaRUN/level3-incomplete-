@@ -1,0 +1,13 @@
+.block {
+  width: 221px;
+  background: darkslategray;
+  height: 100vh;
+  padding: 32px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  text-transform: capitalize;
+  box-shadow: inset 0px 0px 3px 0px;
+}

@@ -1,0 +1,7 @@
+<div class="block">
+  <ul *ngFor='let u of users'>
+    <input type="text" name="users" id="users" value="{{u}}" #user readonly>
+    <input type="text" name="message" id="message" #message>
+    <button class="btn btn-danger" (click)='getval(user.value,message.value)'>message</button>
+  </ul>
+</div>
